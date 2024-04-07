@@ -1,0 +1,14 @@
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\bin\Debug\net8.0\Area y Diametro.exe
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\bin\Debug\net8.0\Area y Diametro.deps.json
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\bin\Debug\net8.0\Area y Diametro.runtimeconfig.json
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\bin\Debug\net8.0\Area y Diametro.dll
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\bin\Debug\net8.0\Area y Diametro.pdb
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.AssemblyInfoInputs.cache
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.AssemblyInfo.cs
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.csproj.CoreCompileInputs.cache
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.dll
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\refint\Area y Diametro.dll
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.pdb
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\Area y Diametro.genruntimeconfig.cache
+C:\Users\D'Lopez\source\repos\lopez\Area y Diametro\Area y Diametro\obj\Debug\net8.0\ref\Area y Diametro.dll
