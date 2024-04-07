@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beneficios del Polimorfismo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Polimorfismo</h1>
+  </header>
+  <nav>
+    <a href="polimorfirmo.html">Que es polimorfirmo</a>
+    <a href="tipos.html">Tipos de Polimorfismo</a>
+    <a href="sobre.html">Sobre carga de metodos</a>
+    <a href="escritura.html">Metodos Escritura</a>
+    <a href="index.html">Página principal</a>
+    <a href="ejemplos.html">Ejemplos de polimorfirmo</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Beneficios del Polimorfismo</h2>
+      <p>El polimorfismo ofrece varios beneficios en la programación orientada a objetos:</p>
+      <ul>
+        <li><b>Reutilización de código:</b> Permite reutilizar código al escribir métodos que pueden ser utilizados por diferentes tipos de objetos.</li>
+        <li><b>Extensibilidad:</b> Facilita la extensión del código al agregar nuevos tipos de objetos sin necesidad de modificar el código existente.</li>
+        <li><b>Flexibilidad:</b> Permite que el código sea más flexible y adaptable a diferentes situaciones.</li>
+        <li><b>Mantenimiento:</b> Facilita el mantenimiento del código al hacer que sea más modular y organizado.</li>
+      </ul>
+      <h3>Ejemplo de polimorfismo en C#:</h3>
+      <pre>
+public class Animal
+{
+    public virtual void HacerSonido()
+    {
+        Console.WriteLine("Sonido genérico de animal");
+    }
+}
+
+public class Perro : Animal
+{
+    public override void HacerSonido()
+    {
+        Console.WriteLine("Guau!");
+    }
+}
+
+public class Gato : Animal
+{
+    public override void HacerSonido()
+    {
+        Console.WriteLine("Miau!");
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Animal animal1 = new Perro();
+        animal1.HacerSonido(); // Imprime "Guau!"
+
+        Animal animal2 = new Gato();
+        animal2.HacerSonido(); // Imprime "Miau!"
+    }
+}
+</section>
+</main>
+</body>
+</html>

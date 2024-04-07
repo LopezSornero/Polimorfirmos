@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de Polimorfismo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Polimorfismo</h1>
+  </header>
+  <nav>
+    <a href="polimorfirmo.html">Que es polimorfirmo</a>
+    <a href="tipos.html">Tipos de Polimorfismo</a>
+    <a href="sobre.html">Sobre carga de metodos</a>
+    <a href="escritura.html">Metodos Escritura</a>
+    <a href="beneficios.html">Beneficios Polimorfismo</a>
+    <a href="index.html">Página principal</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Ejemplos de Polimorfismo en C#</h2>
+      <h3>Ejemplo 1: Polimorfismo por inclusión</h3>
+      <pre>
+        public class Animal
+{
+    public virtual void HacerSonido()
+    {
+        Console.WriteLine("Sonido genérico de animal");
+    }
+}
+
+public class Perro : Animal
+{
+    public override void HacerSonido()
+    {
+        Console.WriteLine("Guau!");
+    }
+}
+
+public class Gato : Animal
+{
+    public override void HacerSonido()
+    {
+        Console.WriteLine("Miau!");
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Animal animal1 = new Perro();
+        animal1.HacerSonido(); // Imprime "Guau!"
+
+        Animal animal2 = new Gato();
+        animal2.HacerSonido(); // Imprime "Miau!"
+    }
+}
+<p>En este ejemplo, se ha definido una clase base `Animal` con un método virtual `HacerSonido()`. Las clases derivadas `Perro` y `Gato` redefinen el método `HacerSonido()` para que imprima un sonido específico.</p>
+  <p>En el método `Main()`, se crean dos objetos, uno de tipo `Perro` y otro de tipo `Gato`. Se llama al método `HacerSonido()` en cada objeto, y se imprime el sonido correspondiente.</p>
+  <h3>Ejemplo 2: Polimorfismo por herencia</h3>
+  <pre>
+    public interface IFigura
+{
+    double CalcularArea();
+}
+
+public class Circulo : IFigura
+{
+    public double Radio { get; set; }
+
+    public double CalcularArea()
+    {
+        return Math.PI * Radio * Radio;
+    }
+}
+
+public class Cuadrado : IFigura
+{
+    public double Lado { get; set; }
+
+    public double CalcularArea()
+    {
+        return Lado * Lado;
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        IFigura figura1 = new Circulo { Radio = 5 };
+        Console.WriteLine("Área del círculo: " + figura1.CalcularArea());
+
+        IFigura figura2 = new Cuadrado { Lado = 4 };
+        Console.WriteLine("Área del cuadrado: " + figura2.CalcularArea());
+    }
+}
+<p>**Salida:**</p>
+  <pre>
+    Área del círculo: 78,5
+    Área del cuadrado: 16
+</section>
+</main>
+</body>
+</html>
